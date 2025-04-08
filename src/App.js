@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Expenses from './pages/Expenses';
+import Profile from './pages/Profile'; // Import new Profile page
 import ProtectedRoute from './pages/ProtectedRoute';
 
 function App() {
@@ -25,6 +26,14 @@ function App() {
                 element={
                   <ProtectedRoute>
                     <Expenses />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/profile"
+                element={
+                  <ProtectedRoute>
+                    <Profile />
                   </ProtectedRoute>
                 }
               />

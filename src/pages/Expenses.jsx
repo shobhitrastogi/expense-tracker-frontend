@@ -98,7 +98,7 @@ function Expenses() {
       <h1 className="text-2xl font-bold mb-6">Your Expenses</h1>
 
       {/* Summary Section */}
-      <ExpenseSummary token={token} />
+      {/* <ExpenseSummary token={token} /> */}
 
       {/* Filter Section */}
       <div className="bg-white p-6 rounded-lg shadow-md mb-6">
